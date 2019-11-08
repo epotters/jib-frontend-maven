@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  jib-angular-demo:
+    image: epotters/jib-angular-demo:1.0-SNAPSHOT
+    container_name: jib-angular-demo-dev
+    ports:
+      - 9080:80
+    restart: always
+    environment:
+      ENVIRONMENT: "dev"
