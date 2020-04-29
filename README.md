@@ -5,7 +5,7 @@ JIB-Frontend Maven is a Maven plugin for containerizing frontend projects.
 
 
 ### Why
-If you deploy to a cloud, you have to wrap your frontend apps in a containers.
+If you deploy to a cloud service, you have to wrap your frontend apps in a container.
 There are several approaches possible to realize this.
 You can create a docker file, build it and push it to a registry like Docker Hub.
 You can create docker-compose file with a service based on a standard image, copy your app files to a handy location and map them on a volume
@@ -18,6 +18,6 @@ This way building the frontend image is simply a part of the regular Maven build
 
 
 ### How
-JIB has a base project called jib-core that does the containerizing. I just build a maven-plugin that uses this to build |Angular images.
-All heavy lifting is done by the jib-core library. I muse
+JIB has a base project called jib-core that does the containerizing. I just build a maven-plugin that uses this to build images for Angular projects.
+All heavy lifting is done by the jib-core library.
 
