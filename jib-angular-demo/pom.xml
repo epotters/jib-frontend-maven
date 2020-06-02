@@ -11,9 +11,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Frontend Maven plugin -->
-    <frontend-maven-plugin.version>1.8.0</frontend-maven-plugin.version>
-    <node.version>v11.10.1</node.version>
-    <npm.version>6.9.0</npm.version>
+    <frontend-maven-plugin.version>1.10.0</frontend-maven-plugin.version>
+    <node.version>v13.10.1</node.version>
+    <npm.version>6.14.5</npm.version>
 
     <angular.projectDir>jib-angular-demo-app</angular.projectDir>
     <angular.buildDir>dist/jib-angular-demo-app</angular.buildDir>
