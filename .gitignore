@@ -3,3 +3,6 @@
 /jib-angular-demo/jib-angular-demo.iml
 /jib-frontend-maven.iml
 /.idea/
+/jib-frontend-maven-plugin/jib-frontend-maven-plugin.iml
+
+*.iml

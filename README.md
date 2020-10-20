@@ -18,6 +18,10 @@ This way building the frontend image is simply a part of the regular Maven build
 
 
 ### How
-JIB has a base project called jib-core that does the containerizing. I just build a maven-plugin that uses this to build images for Angular projects.
+JIB has a base project called `jib-core` that does the containerizing. I just build a maven-plugin that uses this to build images for Angular projects.
 All heavy lifting is done by the jib-core library.
+
+
+### Demo
+Module `jib-angular-demo` contains a default Angular project that will be containerized and pushed to Docker Hub.
 

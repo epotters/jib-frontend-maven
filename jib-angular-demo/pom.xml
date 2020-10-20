@@ -23,8 +23,8 @@
     <jib-frontend-maven-plugin.version>1.0-SNAPSHOT</jib-frontend-maven-plugin.version>
 
     <registry-url>registry.hub.docker.com</registry-url>
-    <registry-user>epotters</registry-user>
-    <registry-password>B4rc3l0n4</registry-password>
+    <registry-user>xxxxx</registry-user>
+    <registry-password>xxxxx</registry-password>
 
   </properties>
 
