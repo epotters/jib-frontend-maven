@@ -22,7 +22,7 @@
     <maven-project.version>2.2.1</maven-project.version>
     <maven-plugin-plugin.version>3.6.0</maven-plugin-plugin.version>
 
-    <jib-core.version>0.16.0</jib-core.version>
+    <jib-core.version>0.22.0</jib-core.version>
     <jib-maven-plugin.version>2.6.0</jib-maven-plugin.version>
   </properties>
 
